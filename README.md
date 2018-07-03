@@ -71,10 +71,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Harshvardhan Shah** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Tamojit Das** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Rupdip Paul** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-* **Neelanjana Roy** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Harshvardhan Shah** - *Initial work* - [Facebook](https://www.facebook.com/harshvardhan.shahdps)
+* **Tamojit Das** - *Initial work* - [Facebook](https://www.facebook.com/mrtamojit/)
+* **Rupdip Paul** - *Initial work* - [Facebook](https://www.facebook.com/rupdip.paul)
+* **Neelanjana Roy** - *Initial work* - [Facebook](https://www.facebook.com/profile.php?id=100003156678246)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
