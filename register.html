@@ -2,10 +2,10 @@
 <html>
     <head>
         <title>Register</title>
-        <link rel="stylesheet" href="register.css">
+        <link rel="stylesheet" href="ungineering/css/register.css">
     </head>
     <body>
-        <form method="post" action="register_submit.php">
+        <form method="post" action="registersubmit.php">
           <div>
             <header class="head">
                 <h1>Register</h1>
@@ -13,39 +13,40 @@
             </header>
             <hr>
                 <div class="name">
-                    <label for="name"><b>Name:</b></label>
+                    <label><b>Name:</b></label>
                     <input type="text" placeholder="Enter your name with surname" name="name" required>
                 </div>
                 <div class="institution">
-                    <label for="institution"><b>Institution:</b></label>
+                    <label><b>Institution:</b></label>
                     <input type="text" placeholder="Enter institution name" name="institution" required>
                 </div>
                 <div class="course">
-                    <label for="course"><b>Course:</b></label>
+                    <label><b>Course:</b></label>
                     <input type="text" placeholder="Enter course name" name="course" required>
                 </div>
                 <div class="address">
-                    <label for="address"><b>Address:</b></label>
+                    <label><b>Address:</b></label>
                     <input type="text" placeholder="Enter your address" name="address" required>
                 </div>
                 <div class="email">
-                    <label for="email"><b>Email:</b></label>
+                    <label><b>Email:</b></label>
                     <input type="text" placeholder="Enter Email" name="email" required>
                 </div>
                 <div class="password">
-                    <label for="password"><b>Password:</b></label>
+                    <label><b>Password:</b></label>
                     <input type="password" placeholder="Enter Password" name="password" required>
                 </div>
                 <div class="phone">
-                    <label for="phone-number"><b>PhoneNum:</b></label>
-                    <input type="integer" placeholder="Enter your personal number" name="phone_number" required>
+                    <label><b>Phone Number:</b></label>
+                    <input type="integer" placeholder="Enter your personal number" name="phonenumber" required>
                 </div>
             <hr>
-            <p>By creating an account you agree to our <a href="terms_condition.php">Terms & Privacy</a>.</p>
+            <p>By creating an account you agree to our <a href="terms_condition.php">Privacy Policy</a><input type="checkbox" required/></p>
+            
             <button type="submit" class="registerbtn">Register</button>
           </div>
           <div class="login">
-            <p>Already have an account? <a href="login.php">Login</a>.</p>
+            <p>Already have an account? <a href="login.html">Login</a>.</p>
           </div>
         </form>
     </body>
