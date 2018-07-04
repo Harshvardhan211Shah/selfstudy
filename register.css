@@ -2,21 +2,6 @@
     box-sizing: border-box;
 }
 
-
-input[type=text], input[type=password], input[type=integer] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-    font-family: "Lucida Console", Monospace;
-}
-
-input[type=text]:focus, input[type=password]:focus, input[type=integer]:focus {
-    background-color: #ddd;
-    outline: none;
-}
 .head {
     background-color: #0066cc;
     color: white;
@@ -27,14 +12,14 @@ input[type=text]:focus, input[type=password]:focus, input[type=integer]:focus {
     padding: 14px 16px;
     font-size: 17px;
     width: 100%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    font-family: "Lucida Console", Monospace;
+
+
 }
 
 hr {
     border: 3px solid blue;
     margin-bottom: 25px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 .registerbtn {
@@ -45,11 +30,9 @@ hr {
     border: none;
     cursor: pointer;
     width: 100px;
-    opacity: 0.9;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.registerbtn:hover {
+.registerbtn {
     opacity:5;
 }
 
