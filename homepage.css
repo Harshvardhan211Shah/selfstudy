@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-family: Comic Sans MS;
+    font-style: italic;
+}
+.wholepage{
+    width:400px;
+}
+.input{
+    position: relative;
+    bottom: 300px;
+    left: 800px;
+    width: 300px;
+}
