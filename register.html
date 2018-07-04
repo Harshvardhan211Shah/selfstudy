@@ -2,10 +2,10 @@
 <html>
     <head>
         <title>Register</title>
-        <link rel="stylesheet" href="ungineering/css/register.css">
+        <link rel="stylesheet" href="register.css">
     </head>
     <body>
-        <form action="submit.php">
+        <form method="post" action="register_submit.php">
           <div>
             <header class="head">
                 <h1>Register</h1>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="phone">
                     <label for="phone-number"><b>PhoneNum:</b></label>
-                    <input type="integer" placeholder="Enter your personal number" name="phone-number" required>
+                    <input type="integer" placeholder="Enter your personal number" name="phone_number" required>
                 </div>
             <hr>
             <p>By creating an account you agree to our <a href="terms_condition.php">Terms & Privacy</a>.</p>
