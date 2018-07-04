@@ -1,0 +1,14 @@
+*{
+    box-sizing: box-border;
+}
+.relative {
+    position: relative;
+    top: 150px;
+    left: 400px;
+    width: 250px;
+    background-color: lightblue;
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;   
+}
