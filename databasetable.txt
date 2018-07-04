@@ -1,0 +1,14 @@
+CREATE DATABASE selfstudy;
+
+CREATE TABLE users (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    institution VARCHAR(255) NOT NULL,
+    course VARCHAR(255),
+    address VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255),
+    phone_number VARCHAR(13),    
+    PRIMARY KEY(id)
+);
+
