@@ -1,14 +1,61 @@
 *{
     box-sizing: box-border;
 }
+
+input[type=text], input[type=password]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text], input[type=password]{
+    background-color: #ddd;
+    outline: none;
+}
+
 .relative {
     position: relative;
-    top: 150px;
+    top: 110px;
     left: 400px;
     width: 250px;
-    background-color: lightblue;
+    background-color: #0066cc;
     padding-left: 80px;
-    padding-right: 20px;
+    padding-right: 80px;
     padding-top: 20px;
-    padding-bottom: 20px;   
+    padding-bottom: 20px;
+    font-family: "Lucida Console", Monospace;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color:white;   
+}
+
+h1 {
+    text-align: center;
+}
+
+.submit {
+    background-color: #33ccff;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    font-family: "Lucida Console", Monospace;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.reset {
+    background-color: #33ccff;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    font-family: "Lucida Console", Monospace;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
