@@ -5,7 +5,7 @@
             $hostname = "localhost";
             $username = "root";
             $password = "password";
-            $database = "ungineering";
+            $database = "selfstudy";
 
             $conn = mysqli_connect($hostname, $username, $password, $database);
             if (!$conn) {
