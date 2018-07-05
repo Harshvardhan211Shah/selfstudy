@@ -12,3 +12,17 @@ CREATE TABLE users (
     PRIMARY KEY(id)
 );
 
+CREATE TABLE subjects (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(255) NOT NULL,
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE study_materials (
+    id INT NOT NULL AUTO_INCREMENT,
+    website_link VARCHAR(255) NOT NULL,
+    vedio_link VARCHAR(255),
+    subject_id INT NOT NULL,
+    PRIMARY KEY(id)
+);
+
