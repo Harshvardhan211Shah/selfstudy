@@ -26,6 +26,7 @@ CREATE TABLE study_materials (
     PRIMARY KEY(id)
 );
 
+//dont insert the values now first see the homepage.html file then insert it
 INSERT INTO subjects
     VALUES(1,"OS");
     
