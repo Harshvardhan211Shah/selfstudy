@@ -18,8 +18,8 @@
             $address=$_POST['address'];
             $email=$_POST['email'];
             $password=$_POST['password'];
-            $phonenumber=$_POST['phonenumber'];
-            $sql = "INSERT INTO users (name, institution, course, address, email, password, phonenumber) VALUES ('$name','$institution','$course','$address', '$email', '$password', '$phonenumber')";
+            $phone_number=$_POST['phonenumber'];
+            $sql = "INSERT INTO users (name, institution, course, address, email, password, phonenumber) VALUES ('$name','$institution','$course','$address', '$email', '$password', '$phone_number')";
 
             if (mysqli_query($conn, $sql)) {
                 echo "Registration successful";
