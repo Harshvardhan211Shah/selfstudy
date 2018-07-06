@@ -1,35 +1,65 @@
+<!--whole html code is been changed and the css part also, images are added dropdown menu is added a login modal is added by@tamojit-->
+<!--@nilanjana's content is kept as it is and it is been changed to dropdown-->
+<!--@rupdip please check the indentation-->
 <!DOCTYPE html>
 <html>
     <head>
-        <title> HOME PAGE</title>
-        <link rel="stylesheet" href="/selfstudy/homepage.css">
+        <title>Multi Knowledge</title><!--Title of the application-->
+        <link rel="shortcut icon" href="img/book.png" type="image/x-icon"><!--added a icon to the application-->
+        <link rel="stylesheet" href="homepage.css">
     </head>
     <body>
-        <h1 align="center"> SELF-STUDY</h1>
-        <div class="wholepage">
-	<div>
-		<input type="text" placeholder="search here"  name="search">search</input>	
-	</div>
-            <br/>
-            <h3>CONTENTS</h3>
-            <br/>
-            <p>Operating System [CODE: OS]</p>
-            <br/>
-            <p>Data Structure [CODE: DS]</p>
-            <br/>
-            <p>Core Java [CODE: JAVA]</p>
-            <br/>
-            <p>C [CODE: C]</p>
-            <br/>
-            <p>C++ [CODE: C++]</p>
-            <br/>
-        </div>
-        <div class="input">
-            <form method="post" action="login_submit.php">
-            <input type="text" name="subject" palceholder="Enter the subject"/>
-            <input type="submit" name="submit" value="submit">
-            <input type="reset">
+    <img src="img/bookmark.png" align="left"><!--this is the logo of the web application-->
+<!--login modal-->
+    <font size="6" color="blue" style="text-align:center">Multi Knowledge</font><!--name of the web application-->
+    <div style="text-align:right">
+        <meta name="viewport" content="width=device-width, initial-scale=8">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto">LOGIN</button>
+        <button type="button" onclick="window.location.href='register.html'" style="width:auto">REGISTER</button>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" method="post" action="loginsubmit.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+                    <img src="img/user-admin.png" alt="Avatar" class="avatar">
+                </div>
+                <div class="container">
+                <div style="text-align:left">
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter your email"  name="email" required/>
+                    <label for="password"><b>Password</b></label>
+                    <input type="password" placeholder="Enter your password" name="password" required/>
+                </div>
+                    <button type="submit">Login</button>   
+                </div>
+                <div class="container" style="background-color:#6699ff">
+                <div style="text-align:left">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                </div>
+                </div>
             </form>
         </div>
+<!--navigation bar-->
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">Portfolio</a>
+        <div class="dropdown">
+            <button class="dropbtn">Subjects 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">C</a>
+                <a href="#">C++</a>
+                <a href="#">O S</a>
+                <a href="#">GRAPHICS</a>
+                <a href="#">MYSQL</a>
+                <a href="#">CORE JAVA</a>
+                <a href="#">PHP</a>
+                <a href="#">HTML</a>
+                <a href="#">CSS</a>
+                <a href="#">PYTHON</a>
+            </div>
+        </div> 
+    </div>
+        <script type="text/javascript" src="homepage.js"></script>
     </body>
 </html>
