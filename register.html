@@ -1,11 +1,14 @@
+<!--added terms and condition by@tamojit-->
+<!--@rupdip please check the indentation-->
 <!DOCTYPE html>
 <html>
     <head>
         <title>Register</title>
+        <link rel="shortcut icon" href="img/book.png" type="image/x-icon">
         <link rel="stylesheet" href="register.css">
     </head>
     <body>
-        <form method="post" action="registersubmit.php">
+        <form method="post" action="register_submit.php">
           <div>
             <header class="head">
                 <h1>Register</h1>
@@ -38,13 +41,26 @@
                 </div>
                 <div class="phone">
                     <label><b>Phone Number:</b></label>
-                    <input type="integer" placeholder="Enter your personal number" name="phonenumber" required>
+                    <input type="integer" placeholder="Enter your personal number" name="phone_number" required>
                 </div>
             <hr>
-            <p>By creating an account you agree to our <a href="terms_condition.php">Privacy Policy</a><input type="checkbox" required/></p>
-            
-            <button type="submit" class="registerbtn">Register</button>
-          </div>
+            <div class="dropdown"><p>By creating an account you agree to our</p>
+                <span>Privacy Policy<input type="checkbox" required/></span>
+                <div class="dropdown-content">
+                    <p>The free privacy statement covers the following matters.
+                        Personal information collection,
+                        Using personal information,
+                        Securing your data,
+                        Cross-border data transfers,
+                        Updating this statement,
+                        Other websites,
+                        Contact,
+                        This privacy statement,</p>
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="registerbtn">Register</button>
+            </div>
           <div class="login">
             <p>Already have an account? <a href="login.html">Login</a>.</p>
           </div>
