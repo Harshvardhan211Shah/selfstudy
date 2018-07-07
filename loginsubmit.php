@@ -3,6 +3,7 @@
 ?>
 <!doctype html>
 <html>
+    <link rel="shortcut icon" href="img/book.png" type="image/x-icon">
     <body>
         <?php
             $hostname = "localhost";
