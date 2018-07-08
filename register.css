@@ -1,8 +1,12 @@
 * {
     box-sizing: border-box;
 }
-
-
+body {
+    border-style:solid;
+}
+form {
+    padding:2px;
+}
 input[type=text], input[type=password], input[type=integer] {
     width: 100%;
     padding: 15px;
@@ -18,7 +22,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=integer]:focus {
     outline: none;
 }
 .head {
-    background-color: #0066cc;
+    background-color: black;
     color: white;
     float: left;
     border: none;
@@ -32,13 +36,13 @@ input[type=text]:focus, input[type=password]:focus, input[type=integer]:focus {
 }
 
 hr {
-    border: 3px solid blue;
+    border: 3px solid black;
     margin-bottom: 25px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .registerbtn {
-    background-color: #0066cc;
+    background-color: black;
     color: white;
     padding: 16px 20px;
     margin: 8px 0;
