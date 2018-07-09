@@ -10,19 +10,19 @@
     </head>
     <body>
     <img src="img/bookmark.png" align="left"><!--this is the logo of the web application-->
-<!--login modal-->
+<!--login modal (The Modal plugin is a dialog box/popup window that is displayed on top of the current page)-->
     <font size="6" color="blue" style="text-align:center">Multi Knowledge</font><!--name of the web application-->
-    <div style="text-align:right">
+    <div style="text-align:right"><!--text align right is given in modal -->
         <meta name="viewport" content="width=device-width, initial-scale=8">
-        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto">LOGIN</button>
-        <button type="button" onclick="window.location.href='register.html'" style="width:auto">REGISTER</button>
-        <div id="id01" class="modal">
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto">LOGIN</button><!--on clicking the modal will open-->
+        <button type="button" onclick="window.location.href='register.html'" style="width:auto">REGISTER</button><!--on clicking register page will open-->
+        <div id="id01" class="modal"><!--an id is given to the class modal-->
             <form class="modal-content animate" method="post" action="loginsubmit.php">
                 <div class="imgcontainer">
-                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
-                    <img src="img/user-admin.png" alt="Avatar" class="avatar">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span><!--a close X is given at the top of the modal on clicking it will close the modal-->
+                    <img src="img/user-admin.png" alt="Avatar" class="avatar"><!--a login avatar is added to give a well defined login page-->
                 </div>
-                <div class="container">
+                <div class="container"><!--this is the content in the modal(email and password which will take the user to its own feed)-->
                 <div style="text-align:left">
                     <label for="email"><b>Email</b></label>
                     <input type="text" placeholder="Enter your email"  name="email" required/>
