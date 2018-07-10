@@ -10,19 +10,30 @@ session_start();
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
+        <?php
+        $hostname = "localhost";
+        $username = "root";
+        $password = "2345";
+        $database = "selfstudy";
+        ?>
 
         <div class="header">
             <h1>
                 <?php
                 $hostname = "localhost";
                 $username = "root";
-                $password = "saddamdas";
+                $password = "2345";
                 $database = "selfstudy";
 
                 $conn = mysqli_connect($hostname, $username, $password, $database);
 
                 if (!$conn) {
                     die("Connection failed: " . mysqli_connect_error());
+                }
+                }
+
+                if ($s == 0) {
+                    echo "Not a valid user";
                 }
 
                 $sql = "SELECT * FROM users";
