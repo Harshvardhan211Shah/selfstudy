@@ -5,7 +5,7 @@
         <?php
             $hostname = "localhost";
             $username = "root";
-            $password = "password";
+            $password = "2345";
             $database = "selfstudy";
 
             $conn = mysqli_connect($hostname, $username, $password, $database);
@@ -29,5 +29,8 @@
             }
             mysqli_close($conn);
         ?>
+        <div>
+            <a href="homepage.html"><button>click here to go back to home page</button></a>
+        </div>
     </body>
 </html>
