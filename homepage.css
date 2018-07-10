@@ -8,73 +8,23 @@ font{
     float: left;
     border: none;
     outline: none;
-    padding: 14px 16px;
+    padding: 40px 16px;
     font-size: 17px;
+    height:110px;
     width: 950px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     font-family: "Lucida Console", Monospace;
 }
-
-.navbar {
-    overflow: hidden;
-    background-color: #0066cc;
-    font-family: "Lucida Console", Monospace;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+/*search*/
+.serach {
+    width: 100px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
 }
 
-.navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.dropdown {
-    float: left;
-    overflow: hidden;
-}
-
-.dropdown .dropbtn {
-    font-size: 16px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #00cccc;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+/* When the input field gets focus, change its width to 100% */
+.search:focus {
+    width: 100px;
 }
 
 body {
@@ -89,6 +39,7 @@ input[type=text], input[type=password] {
 }
 
 button {
+    vertical-align:top;
     background-color: #0099ff;
     color: white;
     padding: 14px 20px;
@@ -194,4 +145,12 @@ span.psw {
 .cancelbtn {
     width: 100%;
 }
-}        
+} 
+    
+h2 {
+    display:block;
+  
+img { 
+    float:left;
+    width: 50px;
+}

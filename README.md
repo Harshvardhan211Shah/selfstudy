@@ -1,6 +1,6 @@
-# Multi Knowledge
+# Web Development(education)
 
-An online study material website for Computer Science Students
+One Paragraph of project description goes here
 
 ## Getting Started
 
