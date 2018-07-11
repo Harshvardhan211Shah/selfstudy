@@ -1,6 +1,6 @@
 <!doctype html>
 <html>
-    <link rel="stylesheet" href="subject.php">
+    <link rel="stylesheet" href="subject.css">
     <body background = "img/wood.jpg">
         <div>
             <?php
@@ -28,8 +28,8 @@
                     die(mysqli_error($conn));
             } 
             $row = mysqli_fetch_array($result);          
-            ?><a href="<?php echo $row['website_link'];?>">Visit Website</a></br><?php
-            ?><a href="<?php echo $row['vedio_link']; ?>">Visit Video</a></br><?php
+            ?><div class="website"><a href="<?php echo $row['website_link'];?>">Visit Website</a></br><div><?php
+            ?><div class="video"><a href="<?php echo $row['vedio_link']; ?>">Visit Video</a></br><div><?php
             mysqli_close($conn);
             ?>       
         </div>
