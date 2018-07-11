@@ -6,7 +6,7 @@
     <head>
         <title>REGISTRATION SUCCESSFULL </title>
     <head/>
-    <body>
+    <body background = "img/wood.jpg">
         <div>
             <?php
             $hostname = "localhost";

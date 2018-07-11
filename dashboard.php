@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="dashboard.css">
     </head>
-    <body>
+    <body background = "img/wood.jpg">
         <div class="container">
                 <h1 class="heading" align="center"> SELF-STUDY</h1>
         </div>

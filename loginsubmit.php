@@ -30,11 +30,6 @@ session_start();
                 if (!$conn) {
                     die("Connection failed: " . mysqli_connect_error());
                 }
-                }
-
-                if ($s == 0) {
-                    echo "Not a valid user";
-                }
 
                 $sql = "SELECT * FROM users";
                 $result = mysqli_query($conn, $sql);

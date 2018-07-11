@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
     <link rel="stylesheet" href="subject.php">
-    <body>
+    <body background = "img/wood.jpg">
         <div>
             <?php
             $hostname = "localhost";
             $username = "root";
-            $password = "12345";
+            $password = "2345";
             $database = "selfstudy";
 
             $conn = mysqli_connect($hostname, $username, $password, $database);
