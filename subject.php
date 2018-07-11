@@ -1,14 +1,13 @@
 <!doctype html>
 <html>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="subject.css">
+    <link rel="stylesheet" href="subject.php">
     <body>
-        <div class="relative">
+        <div>
             <?php
             $hostname = "localhost";
             $username = "root";
-            $password = "2345";
-            $database = "ungineering";
+            $password = "12345";
+            $database = "selfstudy";
 
             $conn = mysqli_connect($hostname, $username, $password, $database);
             if (!$conn) {
@@ -17,21 +16,20 @@
 
             $name = $_POST['subject'];
             $sql = "SELECT 
-            study_mayerials.website_link,study_mayerials.vedio_link
+            study_materials.website_link,study_materials.vedio_link
             FROM study_materials 
             INNER JOIN subjects 
             ON study_materials.subject_id= subjects.id
             WHERE 
-            subjects.name=$name";
-
-            if (mysqli_query($conn, $sql)) {
-                ?>
-                <a>$sql</a>
-                <?php
+            subjects.name='$name'";
+            $result = mysqli_query($conn, $sql);
+            
+            if (!$result) {
+                    die(mysqli_error($conn));
             } 
-            else {
-                echo "Error: PLEASE WRITE THE CORRECT SUBJECT CODE!! ";
-            }
+            $row = mysqli_fetch_array($result);          
+            ?><a href="<?php echo $row['website_link'];?>">Visit Website</a></br><?php
+            ?><a href="<?php echo $row['vedio_link']; ?>">Visit Video</a></br><?php
             mysqli_close($conn);
             ?>       
         </div>
