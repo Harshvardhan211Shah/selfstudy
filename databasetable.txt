@@ -40,3 +40,20 @@ INSERT INTO subjects(name)
     
 INSERT INTO subjects(name)
     VALUES("C++");
+    
+    
+    
+    
+INSERT INTO study_materials
+    VALUES(1,"https://www.oreilly.com/library/view/understanding-the-linux/0596005652/ch01s04.html","https://www.youtube.com/watch?v=ECfGOa_-nWQ",1);
+    
+INSERT INTO study_materials
+    VALUES(2,"https://searchsqlserver.techtarget.com/definition/data-structure","https://www.youtube.com/watch?v=92S4zgXN17o",2);
+    
+INSERT INTO study_materials
+    VALUES(3,"https://www.programiz.com/java-programming","https://www.youtube.com/watch?v=3u1fu6f8Hto",3);
+    
+INSERT INTO study_materials
+    VALUES(4,"https://www.programiz.com/c-programming","https://www.youtube.com/watch?v=-CpG3oATGIs",4);
+INSERT INTO study_materials
+    VALUES(5,"https://www.programiz.com/cpp-programming","https://www.youtube.com/watch?v=Rub-JsjMhWY",5);
