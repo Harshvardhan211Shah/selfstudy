@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
-    <link rel="stylesheet" href="subject.php">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="subject.css">
     <body>
-        <div>
+        <div class="relative">
             <?php
             $hostname = "localhost";
             $username = "root";
