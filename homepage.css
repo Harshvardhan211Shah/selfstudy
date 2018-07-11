@@ -10,11 +10,11 @@
      background-color: transparent;
 }
 body {
-    background-image:url('img/selfstudy.jpeg');
+    /*background-image:url('img/selfstudy.jpeg');
     height:100%;
     width:99%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
 }
 font{
     position: relative;
@@ -28,6 +28,9 @@ font{
     width: 600px;
     /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
     font-family: "Lucida Console", Monospace;
+}
+.text1 {
+    float:right;
 }
 
 .navbar {
