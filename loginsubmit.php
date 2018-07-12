@@ -1,5 +1,8 @@
 <?php
-session_start();
+    session_start();
+    if (!isset($_SESSION['name']) || $_SESSION['name']==null){
+        exit("ACCESS RESTRICTED");  
+    }
 ?>
 <!doctype>
 <html>
