@@ -9,13 +9,9 @@ session_start();
         <link rel="stylesheet" href="loginsubmit.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
+    <button type="button" onclick="window.location.href = 'homepage.html'" style="width:auto">LOGOUT</button>
     <body>
-        <?php
-        $hostname = "localhost";
-        $username = "root";
-        $password = "2345";
-        $database = "selfstudy";
-        ?>
+        
 
         <div class="header">
             <h1>
