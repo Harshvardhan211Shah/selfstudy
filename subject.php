@@ -22,16 +22,29 @@
             ON study_materials.subject_id= subjects.id
             WHERE 
             subjects.name='$name'";
-            $result = mysqli_query($conn, $sql);
             
+            $result = mysqli_query($conn, $sql);
+
             if (!$result) {
-                    die(mysqli_error($conn));
-            } 
-            $row = mysqli_fetch_array($result);          
-            ?><div class="website"><a href="<?php echo $row['website_link'];?>">Visit Website</a></br><div><?php
-            ?><div class="video"><a href="<?php echo $row['vedio_link']; ?>">Visit Video</a></br><div><?php
-            mysqli_close($conn);
-            ?>       
+                die(mysqli_error($conn));
+            }
+
+            $flag = 0;
+            $row = mysqli_fetch_array($result);
+            if ($row != null && $flag == 0) {
+                ?>
+                <div class="website"><a href="<?php echo $row['website_link']; ?>">Visit Website</a></br></div>
+                <div class="video"><a href="<?php echo $row['vedio_link']; ?>">Visit Video</a></br></div>
+                <?php $flag = 1; 
+            }
+                ?>
+             
+                <?php
+                if ($flag == 0) {
+                    echo "PLEASE ENTER CORRECT CODE";
+                }
+                mysqli_close($conn);
+                ?>       
         </div>
     </body>
 </html>
