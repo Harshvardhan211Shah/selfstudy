@@ -57,7 +57,7 @@ session_start();
         <!--navigation bar-->
         <div class="navbar">
             <a href="http://127.0.0.1/selfstudy/homepage.html">Home</a>
-            <a href="dashboard.php">dashboard</a>
+            <a href="dashboard.php" target="_blank">dashboard</a>
             <div class="dropdown"><!--dropdown menu-->
                 <button class="dropbtn">Subjects 
                     <i class="fa fa-caret-down"></i>
