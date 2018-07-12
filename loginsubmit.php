@@ -9,7 +9,7 @@ session_start();
         <link rel="stylesheet" href="loginsubmit.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <button type="button" onclick="window.location.href = 'homepage.html'" style="width:auto">LOGOUT</button>
+    <a href="logout.php"><button type="button">LOGOUT</button><a/>
     <body>
         
 

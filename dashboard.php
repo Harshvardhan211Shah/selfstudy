@@ -1,5 +1,8 @@
 <?php
     session_start();
+    if (!isset($_SESSION['name']) || $_SESSION['name']==null){
+        exit("ACCESS RESTRICTED");  
+    }
 ?>
 <!doctype html>
 <html>
@@ -18,7 +21,7 @@
         <link rel="shortcut icon" href="img/book.png" type="image/x-icon">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
         <link rel="stylesheet" href="dashboard.css">
-        <button type="button" onclick="window.location.href = 'homepage.html'" style="width:auto">LOGOUT</button>
+        <a href="logout.php"><button type="button">LOGOUT</button><a/>
     </head>
     <body background = "img/wood.jpg">
         <div class="container">

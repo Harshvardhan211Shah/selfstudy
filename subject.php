@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    if (!isset($_SESSION['name']) || $_SESSION['name']==null){
+        exit("ACCESS RESTRICTED");  
+    }
+?>
 <!doctype html>
 <html>
     <link rel="stylesheet" href="subject.css">
