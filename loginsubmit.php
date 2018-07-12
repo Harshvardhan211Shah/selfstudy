@@ -39,7 +39,6 @@ session_start();
                     if ($_POST["email"] == $row['email'] && $_POST["password"] == $row['password']) {
                         $s = 1; //$s is flag 
                         echo "hi!!" . " " . $row['name'];
-                        // setcookie("name",$row['name']);
                         $_SESSION['name'] = $row["name"];
                         break;
                     }
@@ -64,16 +63,16 @@ session_start();
                     <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">C</a>
-                    <a href="#">C++</a>
-                    <a href="#">O S</a>
-                    <a href="#">GRAPHICS</a>
-                    <a href="#">MYSQL</a>
-                    <a href="#">CORE JAVA</a>
-                    <a href="#">PHP</a>
-                    <a href="#">HTML</a>
-                    <a href="#">CSS</a>
-                    <a href="#">PYTHON</a>
+                    <a href="https://www.tutorialspoint.com/cprogramming/" target="_blank">C</a>
+                    <a href="https://www.tutorialspoint.com/cplusplus/index.htm" target="_blank">C++</a>
+                    <a href="https://www.tutorialspoint.com//operating_system/index.asp" target="_blank">O S</a>
+                    <a href="https://www.tutorialspoint.com/computer_graphics/" target="_blank">GRAPHICS</a>
+                    <a href="https://www.tutorialspoint.com/sql/" target="_blank">MYSQL</a>
+                    <a href="https://www.tutorialspoint.com/java_essential_training/index.asp" target="_blank">CORE JAVA</a>
+                    <a href="https://www.tutorialspoint.com/php/" target="_blank">PHP</a>
+                    <a href="https://www.tutorialspoint.com/html/" target="_blank">HTML</a>
+                    <a href="https://www.tutorialspoint.com/css/" target="_blank">CSS</a>
+                    <a href="https://www.tutorialspoint.com/python/" target="_blank">PYTHON</a>
                 </div>
             </div> 
         </div>

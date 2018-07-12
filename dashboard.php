@@ -57,7 +57,7 @@
         <div class="select">
             <form method="post" action="subject.php">
                  <input type="text" placeholder="Enter your subject code" name="subject" required/>
-                 <button type="submit" class="submit">Submit</button>
+                 <button type="submit" class="submit" target="_blank">Submit</button>
                  <button type="reset" class="reset">Reset</button>
             </form>
         </div>

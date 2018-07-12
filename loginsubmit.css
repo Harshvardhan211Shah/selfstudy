@@ -10,7 +10,7 @@ body {
 .header {
     padding: 80px;
     text-align: center;
-    background: #1abc9c;
+    background: #808080;
     color: white;
 }
 
@@ -20,7 +20,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: #0066cc;
+    background-color: black;
     font-family: "Lucida Console", Monospace;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -51,7 +51,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #00cccc;
+    background-color: #808080;
 }
 
 .dropdown-content {
@@ -103,9 +103,8 @@ body {
 
 
 .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
+    height:200px;
+    width:200px;
 }
 
 
@@ -130,7 +129,21 @@ body {
     }
 }
 
+button {
+    float:right;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
+button:hover {
+    opacity: 0.8;
+}
 
 
 

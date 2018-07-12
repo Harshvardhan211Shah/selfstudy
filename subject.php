@@ -33,8 +33,8 @@
             $row = mysqli_fetch_array($result);
             if ($row != null && $flag == 0) {
                 ?>
-                <div class="website"><a href="<?php echo $row['website_link']; ?>">Visit Website</a></br></div>
-                <div class="video"><a href="<?php echo $row['vedio_link']; ?>">Visit Video</a></br></div>
+                <div class="website"><a href="<?php echo $row['website_link']; ?>" target="_blank">Visit Website</a></br></div>
+                <div class="video"><a href="<?php echo $row['vedio_link']; ?>" target="_blank">Visit Video</a></br></div>
                 <?php $flag = 1; 
             }
                 ?>

@@ -15,6 +15,7 @@ input[type=text], input[type=password], input[type=integer] {
     border: none;
     background: #f1f1f1;
     font-family: "Lucida Console", Monospace;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 input[type=text]:focus, input[type=password]:focus, input[type=integer]:focus {
