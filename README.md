@@ -1,4 +1,4 @@
-# Web Development(education)
+# Web Development(SELFSTUDY)
 
 One Paragraph of project description goes here
 
